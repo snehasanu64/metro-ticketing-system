@@ -1,57 +1,52 @@
-# Metro Ticketing System
-
-A simple metro booking and management system built with PHP and MySQL.
-
-This project lets users book metro tickets, view QR-based tickets after payment, and keep track of travel logs. It also includes an admin panel for managing users, bookings, and fare settings.
-
-## Features
-
-- User registration and login
-- Admin login and admin dashboard
-- Metro ticket booking
-- Fare calculation based on stations
+# 🚇 Metro Ticketing System
+ 
+A PHP/MySQL web app for booking metro tickets online.
+Users can register, book tickets between stations, make a simulated payment,
+and get a QR-based ticket. Admins get a separate dashboard to manage everything.
+ 
+## ✨ Features
+ 
+**User Side**
+- Register and login
+- Book tickets by selecting source and destination
+- Automatic fare calculation based on stations
 - Simulated payment flow
-- QR ticket generation
-- Travel log management
-- Booking and user management for admin
-- Dynamic fare settings
-- CSV export for bookings and travel logs
+- QR ticket generation after payment
+- View travel history and logs
+**Admin Side**
+- Admin login and dashboard
+- Manage all users and bookings
+- Configure fare settings dynamically
+- Export bookings and travel logs as CSV
 - Dashboard charts and travel stats
-
-## Project Structure
-
-- `index.php` - user login page
-- `register.php` - new user registration
-- `dashboard.php` - user travel dashboard
-- `book_ticket.php` - ticket booking page
-- `payment.php` - payment page
-- `view_ticket.php` - QR ticket view
-- `travel_logs.php` - user travel logs
-- `admin_login.php` - admin login page
-- `admin_dashboard.php` - admin dashboard
-- `manage_users.php` - admin user management
-- `manage_bookings.php` - admin booking management
-- `admin_settings.php` - fare settings
-- `config.php` - database and session setup
-
-## Setup Instructions
-
-1. Clone the repository to your local machine.
-2. Import the `database.sql` file into MySQL.
-3. Update the database credentials in `config.php` if needed.
-4. Run the project in a local server like XAMPP or WAMP.
-5. Open `index.php` in your browser.
-
-## How It Works
-
-- A user creates an account and logs in.
-- The user books a metro ticket by selecting source and destination stations.
-- The system calculates the fare automatically.
-- After payment, the ticket is marked as paid and a QR ticket is generated.
-- Users can view their ticket and travel history anytime.
-- Admins can monitor bookings, users, and fare settings from the admin dashboard.
-
-## Notes
-
-- This is a demo-style project with simulated payment and ticket generation.
-- It is designed for learning, practice, and basic metro booking workflow demonstration.
+## 🛠️ Built With
+ 
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+ 
+## ⚙️ Run Locally (WAMP/XAMPP)
+ 
+```bash
+git clone https://github.com/snehasanu64/metro-ticketing-system.git
+```
+ 
+1. Copy folder to `C:/wamp64/www/`
+2. Import `database.sql` in phpMyAdmin
+3. Update DB credentials in `config.php` if needed
+4. Open `http://localhost/metro-ticketing-system`
+## 📋 Requirements
+ 
+- WAMP or XAMPP
+- PHP 7+
+- MySQL
+## 📝 Note
+ 
+This is a learning project with simulated payment and QR ticket generation.
+Not connected to any real metro system or payment gateway.
+ 
+---
+Built by [Sneha](https://github.com/snehasanu64)
+ 
