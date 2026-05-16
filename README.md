@@ -1,4 +1,4 @@
-# 🚇 Metro Ticketing System
+#  Metro Ticketing System
  
 A PHP/MySQL web app for booking metro tickets online.
 Users can register, book tickets between stations, make a simulated payment,
